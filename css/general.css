@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background: #161618;
+}
+* a{
+  text-decoration: none;
+
+}
+* li{
+  list-style: none;
+}

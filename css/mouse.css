@@ -1,0 +1,354 @@
+
+/* HeaderMouse */
+.mouse-container{
+  margin-top:60px;
+  width: 100%;
+  text-align: center;
+  height: 300px;
+}
+.mouse-container i{
+  margin-top: 2rem;
+  font-size: 10rem;
+  color: white;
+}
+.mouse-container h1{
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+/* End Header Mouse */
+
+/* MouseCategory */
+.mouse-cate-container{
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  max-width:1250px;
+  margin: auto;
+  
+}
+.mouse-cate-item1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  width: 395px;
+  height: 80px;
+  background-image: url(../wallpaper/mcate1.png);
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 10px;
+}
+.mouse-cate-item1 a{
+  color: #fff;
+}
+.mouse-cate-item2 a{
+  color: #fff;
+}
+.mouse-cate-item3 a{
+  color: #fff;
+}
+.mouse-cate-item2{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  width: 395px;
+  height: 80px;
+  background-image: url(../wallpaper/mcate2.png);
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 10px;
+}
+.mouse-cate-item3{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  width: 395px;
+  height: 80px;
+  background-image: url(../wallpaper/mcate3.png);
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 10px;
+}
+.mouse-cate-item1:hover{
+  border: 2px solid red;
+  border-radius: 40px;
+}
+.mouse-cate-item2:hover{
+  border: 2px solid red;
+  border-radius: 40px;
+}
+.mouse-cate-item3:hover{
+  border: 2px solid red;
+  border-radius: 40px;
+}
+/* End MouseCategory */
+
+
+/* All GAMINGMOUSE */
+.promotion-mouse{
+  max-width: 1250px;
+  margin: auto;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 5px;
+}
+.promotion-mouse-1{
+  cursor: pointer;
+  width: 624px;
+  height: 196px;
+  background-image: url(../wallpaper/promo-frame.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.promotion-mouse-2{
+  cursor: pointer;
+  width: 624px;
+  height: 196px;
+  background-image: url(../wallpaper/set-frame.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.all-gm-container{
+  margin-top: 4rem;
+  color: #fff ;
+  width: 100%;
+  height: 65px;
+  background: black ;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid red;
+}
+.all-gm-container h1{
+  margin-left: 10px;
+}
+.product-all-container{
+  width: 100% ;
+  height: 1600px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(4,385px);
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+.product-all-items{
+  background: #fff;
+  border-radius:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all .3s;
+  
+}
+.product-all-items:hover{
+  border: 2px solid #ff4747;
+}
+.product-all-items img{
+  widows: 150px;
+  height: 150px;
+}
+.product-all-items h3{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.product-all-items p{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+.product-all-items p a{
+  display: block;
+  margin-top: .5rem;
+  padding: 15px 25px;
+  background-color: red;
+  color: #fff;
+  
+} 
+
+
+/* End All GAMINGMOUSE */
+
+
+@media only screen and (max-width: 480px){
+  /* MouseCategory */
+  .mouse-cate-container{
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1250px;
+    margin: auto;
+    flex-direction: column;
+    
+  }
+  .mouse-cate-item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    width: 395px;
+    height: 80px;
+    background-image: url(../wallpaper/mcate1.png);
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 10px;
+  }
+  .mouse-cate-item1 a{
+    color: #fff;
+  }
+  .mouse-cate-item2 a{
+    color: #fff;
+  }
+  .mouse-cate-item3 a{
+    color: #fff;
+  }
+  .mouse-cate-item2{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    width: 395px;
+    height: 80px;
+    background-image: url(../wallpaper/mcate2.png);
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 10px;
+  }
+  .mouse-cate-item3{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    width: 395px;
+    height: 80px;
+    background-image: url(../wallpaper/mcate3.png);
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+  }
+  .mouse-cate-item1:hover{
+    border: 2px solid red;
+    border-radius: 40px;
+  }
+  .mouse-cate-item2:hover{
+    border: 2px solid red;
+    border-radius: 40px;
+  }
+  .mouse-cate-item3:hover{
+    border: 2px solid red;
+    border-radius: 40px;
+  }
+  /* End MouseCategory */
+
+
+  /* All GAMINGMOUSE */
+  .promotion-mouse{
+    width: 100%;
+    margin: auto;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 5px;
+  }
+
+  .promotion-mouse-1{
+    cursor: pointer;
+    width: 100%;
+    height: 196px;
+    background-image: url(../wallpaper/rspro2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .promotion-mouse-2{
+    cursor: pointer;
+    width: 100%;
+    height: 196px;
+    background-image: url(../wallpaper/rspro1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .all-gm-container{
+    margin-top: 4rem;
+    color: #fff ;
+    width: 100%;
+    height: 65px;
+    background: black ;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid red;
+  }
+  .all-gm-container h1{
+    margin-left: 10px;
+  }
+  .product-all-container{
+    width: 100% ;
+    height: 6500px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(16,385px);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+  }
+  .product-all-items{
+    background: #fff;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all .3s;
+    
+  }
+  .product-all-items:hover{
+    border: 2px solid #ff4747;
+  }
+  .product-all-items img{
+    widows: 150px;
+    height: 150px;
+  }
+  .product-all-items h3{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .product-all-items p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+  }
+  .product-all-items p a{
+    display: block;
+    margin-top: .5rem;
+    padding: 15px 25px;
+    background-color: red;
+    color: #fff;
+    
+  } 
+  .all-gm-container h1{
+    font-size: 1.5rem;
+  }
+
+}

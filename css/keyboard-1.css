@@ -1,0 +1,89 @@
+body{
+  margin-top: 80px;
+}
+.keyboard1-header{
+  max-width: 1250px;
+  margin: auto;
+  height: 200px; 
+  background-image: url(../wallpaper/postkey1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.keyboard1-header h1{
+  font-size: 3rem;
+  font-family: 'Kanit', sans-serif;
+}
+
+
+.product-all-container{
+  width: 100% ;
+  height: 900px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(4,385px);
+  grid-gap: 1rem;
+  margin-top: 3rem;
+    
+}
+.product-all-items{
+  background: #fff;
+  border-radius:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all .3s;
+  
+}
+.product-all-items:hover{
+  border: 2px solid #ff4747;
+}
+.product-all-items img{
+  widows: 150px;
+  height: 150px;
+}
+.product-all-items h3{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.product-all-items p{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: .5rem;
+}
+.product-all-items p a{
+  display: block;
+  padding: 15px 25px;
+  background-color: red;
+  color: #fff;
+  
+}
+
+@media only screen and (max-width: 480px){
+  .product-all-container{
+    width: 100% ;
+    height: 2850px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(16,385px);
+    grid-gap: 1rem;
+    margin-top: 3rem;
+      
+  }
+  .product-all-items{
+    background: #fff;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all .3s;
+    
+  }
+}

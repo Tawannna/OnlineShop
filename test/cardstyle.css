@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+.card-container{
+  width: 140px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px ;
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius:20px ;
+  background-image: url(../wallpaper/Card1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.card-container2{
+  width: 140px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px ;
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius:20px ;
+  background-image: url(../wallpaper/Card2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.card-container3{
+  width: 140px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px ;
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius:20px ;
+  background-image: url(../wallpaper/Card3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.card-container4{
+  width: 140px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px ;
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius:20px ;
+  background-image: url(../wallpaper/Card4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.card-item{
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+  flex-direction: column;
+  
+  height: 100%;
+  text-align: center;
+}
+.card-item a{
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
